@@ -147,7 +147,7 @@ The top three important features effecting the performance rating are ordered wi
 3. Years Since the last Promotion
 
 ##### Goal 3: A Trained model which can predict the employee performance
-The trained model is created using the XGB classifier algorithm as follows, 
+The trained model is created using the Random Forest classifier algorithm as follows, 
 1. accuracy score is 96.69%
 2. confusion matric 
                   col_0   2   3   4
