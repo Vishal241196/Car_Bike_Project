@@ -150,17 +150,21 @@ The top three important features effecting the performance rating are ordered wi
 The trained model is created using the Random Forest classifier algorithm as follows, 
 1. accuracy score is 96.69%
 2. confusion matric 
-                  col_0   2   3   4
-      PerformanceRating
-                      2  252  3   0
-                      3   19 247  1
-                      4    0  3  262
+                 
+                 col_0           2    3    4    
+           
+           PerformanceRating
+                          2    252    3    0
+                          3     19  247    1
+                          4      0    3  262
+          
 3. MSE value =  0.03303684879288437
 4. RMSE value = 0.18176041591304848
 5. Precision = 96.7%
 6. Recall = 96.7%
 7. F1 score = 96.7%
 8. Classification Report
+                        
                         precision  recall  f1-score   support
 
                    2       0.93      0.99      0.96       255
