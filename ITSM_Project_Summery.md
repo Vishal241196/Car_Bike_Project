@@ -89,8 +89,9 @@ The machine learning model has been fitted and predicted with the accuracy score
 The trained model is created using the Random Forest classifier algorithm as follows, 
 1. accuracy score is 99.99%
 2. confusion matric 
+                  
                   col_0   0   1   
-      PerformanceRating
+                Priority
                       0  617  0   
                       1   2 13363  
 3. MSE value =  0.00014304105278214847
@@ -99,6 +100,7 @@ The trained model is created using the Random Forest classifier algorithm as fol
 6. Recall = 100%
 7. F1 score = 100%
 8. Classification Report
+                        
                         precision  recall  f1-score   support
 
                    0       1.00      1.00      1.00       617
@@ -112,7 +114,8 @@ The trained model is created using the Random Forest classifier algorithm as fol
 The trained model is created using the Random Forest classifier algorithm as follows, 
 1. accuracy score is 98.92%
 2. Classification Report
-                        precision  recall  f1-score   support
+                       
+                       precision  recall  f1-score   support
 
                    0       0.99      1.00      0.99     13835
                    1       0.36      0.03      0.05       147
