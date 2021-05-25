@@ -100,20 +100,22 @@ The machine learning model has been fitted and predicted with the accuracy score
 
 ##### Goal 1:  A trained model which can predict whether a person will/will not take the H1N1 vaccine based on factors as inputs.
 The trained model is created using the XGB classifier algorithm as follows, 
-1. accuracy score is 81.91%
+1. accuracy score is 81.95%
 2. confusion matric 
+                   
                    col_0         0      1
-                h1n1_vaccine            
-                            0   5565   754
-                            1    689  1005
+                 h1n1_vaccine            
+                            0   5555   764
+                            1    682  1012
 
-3. MSE value =  0.18008236615499812
-4. RMSE value = 0.42436112705453843
-5. Precision = 57.1%
-6. Recall = 59.3%
-7. F1 score = 58.2%
+3. MSE value =  0.180456757768626
+4. RMSE value = 0.42480202185091587
+5. Precision = 57%
+6. Recall = 59.7%
+7. F1 score = 58.3%
 8. Classification Report
-                        precision    recall  f1-score   support
+                       
+                       precision    recall  f1-score   support
 
                    0       0.89      0.88      0.89      6319
                    1       0.57      0.59      0.58      1694
@@ -127,8 +129,9 @@ The trained model is created using the XGB classifier algorithm as follows,
 The trained model is created using the XGB classifier algorithm as follows, 
 1. accuracy score is 74.87%
 2. confusion matric 
+                  
                   col_0    0     1   
-      PerformanceRating
+       seasonal_vaccine
                       0   3324   946   
                       1   1067  2676  
                                 
@@ -138,7 +141,8 @@ The trained model is created using the XGB classifier algorithm as follows,
 6. Recall = 71.5%
 7. F1 score = 72.7%
 8. Classification Report
-                        precision    recall  f1-score   support
+                       
+                       precision    recall  f1-score   support
 
                    0       0.76      0.78      0.77      4270
                    1       0.74      0.71      0.73      3743
