@@ -79,11 +79,12 @@ In model Evalution part we calculate,
 The machine learning model has been fitted and predicted with the accuracy score. The goal of this project is nothing but the results from the analysis and machine learning model.
 
 ##### Goal 3: A trained model which can predict customer churn based on factors as inputs.
-The trained model is created using the XGB classifier algorithm as follows, 
+The trained model is created using the Random Forest classifier algorithm as follows, 
 1. accuracy score is 94.62%
 2. confusion matric 
+                  
                   col_0   0    1   
-      PerformanceRating
+                  Churn
                       0  1147  51   
                       1   77  1102   
                       
@@ -93,7 +94,8 @@ The trained model is created using the XGB classifier algorithm as follows,
 6. Recall = 93.5%
 7. F1 score = 94.5%
 8. Classification Report
-                        precision  recall  f1-score   support
+                       
+                       precision  recall  f1-score   support
 
                    0       0.94      0.96      0.95      1198
                    1       0.96      0.93      0.95      1179
