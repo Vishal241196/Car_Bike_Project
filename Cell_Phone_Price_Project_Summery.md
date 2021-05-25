@@ -84,8 +84,10 @@ The machine learning model has been fitted and predicted with the accuracy score
 The trained model is created using the KNN classifier algorithm as follows, 
 1. accuracy score is 92.50%
 2. confusion matric 
+                  
                   col_0   0    1    2    3
-            price range
+           
+           price range
                       0  137   3    0    0
                       1   9   146   2    0
                       2   0    12  136   9
@@ -97,7 +99,8 @@ The trained model is created using the KNN classifier algorithm as follows,
 6. Recall = 92.5%
 7. F1 score = 92.5%
 8. Classification Report
-                        precision  recall  f1-score   support
+                       
+                       precision  recall  f1-score   support
 
                    0       0.94      0.98      0.96       140
                    1       0.91      0.93      0.92       157
